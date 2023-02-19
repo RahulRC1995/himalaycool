@@ -1,6 +1,5 @@
 
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import {
     Collapse,
     Navbar,
@@ -10,7 +9,6 @@ import {
     NavItem,
     NavLink,
     NavbarText,
-    Container,
 } from 'reactstrap';
 
 export const Navbarhead = () => {
