@@ -18,8 +18,8 @@ export const About = () => {
                     <p className='mt-3'>Himalaya is a refrigeration, cold store installation company certified with limited liablity, providing extensice knowledge and expertise in market with rich and professional experience.
                         Himalaya consist of highly quilified engineers and technicians, can provide the most reliable services to the customers.</p>
                     <p>We guarantee our customers ther we will consider their problems as our own and establish a strong relationship with them. We strive to be a true solution provider with profestion approach</p>
-                    <Row className='m-5 p-5'>
-                        <Col md="6" className='p-0' >       <Alert className='text-center ' style={{ backgroundColor: "#4fc3f7", height: "350px", width: '100%', border: "0px", borderRadius: "0px" }} >
+                    <Row className='m-5 p-5 '>
+                        <Col md="6" className='p-0' >       <Alert className='text-center cardBlocks' style={{ backgroundColor: "#4fc3f7", height: "350px", width: '100%', border: "0px", borderRadius: "0px" }} >
                             <MdVisibility size={70} color="#fff" style={{ height: 120 }} />
                             <h3 className="alert-heading  " style={{ color: "#fff" }}>
                                 Our Vision
@@ -32,15 +32,15 @@ export const About = () => {
                                 maximum virtues.
                             </p>
                         </Alert></Col>
-                        <Col md="6" className='p-0'>
+                        <Col md="6" className='p-0 cardBlocks'>
                             <img src="MissionBanner.jpg" class="img-fluid" alt="im" style={{ height: "350px", width: '100%' }} />
                         </Col>
                     </Row>
                     <Row className='m-5 p-5'>
-                        <Col md="6" className='p-0'>
+                        <Col md="6" className='p-0 cardBlocks'>
                             <img src="TargetBanner.jpg" class="img-fluid" alt="im" style={{ height: "350px", width: '100%' }} />
                         </Col>
-                        <Col md="6" className='p-0' >       <Alert className='text-center ' style={{ backgroundColor: "#81C784", height: "350px", width: '100%', border: "0px", borderRadius: "0px" }} >
+                        <Col md="6" className='p-0' >       <Alert className='text-center cardBlocks ' style={{ backgroundColor: "#81C784", height: "350px", width: '100%', border: "0px", borderRadius: "0px" }} >
                             <GiArcheryTarget size={70} color="#fff" style={{ height: 120 }} />
                             <h3 className="alert-heading  " style={{ color: "#fff" }}>
                                 Our Mission

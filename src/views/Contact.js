@@ -13,7 +13,7 @@ const Contact = () => {
 
     return (
 
-        <Container fluid className='mt-5 h-100 '>
+        <Container fluid className='mt-5 conactContainer '>
             <Row className='d-flex h-100 justify-content-md-center'>
                 <Col md="7"  >
                     <Card>
@@ -29,8 +29,6 @@ const Contact = () => {
                                             <ImHome size={25} color="#fff" />
                                         </div>
                                         <p> P.O Box 7890, Tower D # 301, Horizon Tower Rashidiya 1, <br />Ajman, UAE</p>
-
-
                                         <p></p>
                                         <div class="iconContact">
                                             <HiPhone size={25} color="#fff" />
@@ -39,7 +37,7 @@ const Contact = () => {
                                         <div class="iconContact">
                                             <MdEmail size={25} color="#fff" />
                                         </div>
-                                        <p>info@gmail.com</p>
+                                        <p>info@himalayacool.com</p>
                                     </div>
                                 </Col>
                                 <Col md="5" id="Map">

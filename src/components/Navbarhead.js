@@ -59,7 +59,7 @@ export const Navbarhead = () => {
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/">
+                        <NavLink href="Product">
                             Products
                         </NavLink>
                     </NavItem>
