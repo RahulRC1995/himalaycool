@@ -5,6 +5,7 @@ import { About } from './views/About';
 import Indexpage from './views/Indexpage';
 import Contact from './views/Contact';
 import { Product } from './views/Product';
+import Gallery from './views/Gallery';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="About" element={<About />} />
         <Route path="Contact" element={<Contact />} />
         <Route path="Product" element={<Product />} />
+        <Route path="Gallery" element={<Gallery />} />
       </Route>
     </Routes>
 

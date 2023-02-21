@@ -34,6 +34,7 @@ const Contact = () => {
                                             <HiPhone size={25} color="#fff" />
                                         </div>
                                         <p>+971 6 742 1561</p>
+                                        <p>+971 52 848 4384</p>
                                         <div class="iconContact">
                                             <MdEmail size={25} color="#fff" />
                                         </div>

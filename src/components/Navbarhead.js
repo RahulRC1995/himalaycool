@@ -64,6 +64,11 @@ export const Navbarhead = () => {
                         </NavLink>
                     </NavItem>
                     <NavItem>
+                        <NavLink href="Gallery">
+                            Gallery
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
                         <NavLink href="Contact">
                             Contact Us                         </NavLink>
                     </NavItem>

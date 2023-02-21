@@ -5,13 +5,11 @@ import { Col, Row } from 'reactstrap'
 const Indexpage = () => {
     return (
         <>
-            <div className="HeadingBanner text-center " style={{ backgroundImage: `url(MainBanner.jpg)` }}>
-                <div>
+            <div className="HeadingBanner " >
+                <div className='Headtxtbanner'>
                     <h1 className="bannerFont">HIMALAYA A/C SYSTEMS CONTRACTING</h1>
                     <section className="animation">
                         <div className="first animText" ><div>Cold storage specialist</div></div>
-                        <div className="second animText"><div>Warehouse cold storages</div></div>
-                        <div className="third animText"><div>Annual Maintainance contract</div></div>
                     </section>
                 </div>
             </div>
@@ -21,8 +19,8 @@ const Indexpage = () => {
                     <ul className='ullist mt-5'>
                         <li className='lilist'>UAE</li>
                         <li className='lilist'>INDIA</li>
-                        <li className='lilist'>BEHARIN</li>
-                        <li className='lilist'>OMAN</li>
+                        <li className='lilist'>BEHRAIN</li>
+                        <li className='lilist'>SULTANATE OF OMAN</li>
                         <li className='lilist'>QATAR</li>
                         <li className='lilist'>KSA</li>
 
@@ -43,15 +41,12 @@ const Indexpage = () => {
                         <Col className='p-0 m-0 serviceBgs' style={{ backgroundImage: `url(Services/serv2.jpg)` }}><Link to="Product"><div className="filterBg">Industrial Cold Rooms</div></Link></Col>
                         <Col className='p-0 m-0 serviceBgs' style={{ backgroundImage: `url(Services/serv3.jpg)` }}><Link to="Product"><div className="filterBg">Centralised Refrigeration System</div></Link></Col>
                         <Col className='p-0 m-0 serviceBgs' style={{ backgroundImage: `url(Services/serv4.jpg)` }}><Link to="Product"><div className="filterBg">Walk in Cold Rooms</div></Link></Col>
-
-
-
                     </Row>
                     <Row>
                         <Col className='p-0 m-0 serviceBgs' style={{ backgroundImage: `url(Services/serv5.jpg)` }}><Link to="Product"><div className="filterBg">Supermarket Refrigertaion System</div></Link></Col>
                         <Col className='p-0 m-0 serviceBgs' style={{ backgroundImage: `url(Services/serv6.jpg)` }}><Link to="Product"><div className="filterBg">Ice Plant</div></Link></Col>
                         <Col className='p-0 m-0 serviceBgs' style={{ backgroundImage: `url(TargetBanner.jpg)` }}><Link to="Product"><div className="filterBg">Medical & lab Cold Rooms</div></Link></Col>
-                        <Col className='p-0 m-0 serviceBgs' style={{ backgroundImage: `url(MissionBanner.jpg)` }}><Link to="Product"><div className="filterBg">Supermarket Refrigertaion System</div></Link></Col>
+                        <Col className='p-0 m-0 serviceBgs' style={{ backgroundImage: `url(MissionBanner.jpg)` }}><Link to="Product"><div className="filterBg">Blast Freezers & Chillers</div></Link></Col>
                     </Row>
                 </Col>
             </Row>
