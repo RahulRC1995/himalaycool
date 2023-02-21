@@ -4,7 +4,6 @@ import {
     CarouselItem,
     CarouselControl,
     CarouselIndicators,
-    CarouselCaption,
 } from 'reactstrap';
 import { Col, Container, Row } from 'reactstrap'
 import img1 from "../Images/Fifth.JPG"
