@@ -13,7 +13,7 @@ const Contact = () => {
 
     return (
 
-        <Container fluid className='mt-5 conactContainer '>
+        <Container fluid className='mt-5 conactContainer mb-5 '>
             <Row className='d-flex h-100 justify-content-md-center'>
                 <Col md="7"  >
                     <Card>
