@@ -16,7 +16,7 @@ export const Product = () => {
                         <p className='mx-3 '>We design and execute projects from walk in cold room to big warehouse cold storage as per the requirements of the clients.</p>
 
                         <h3 className='mt-5'> <img src="snowFlake.svg" class="limg" alt="im" /> INDUSTRIAL COLD ROOMS</h3>
-                        <p className='mx-3'>We build industrial coldrooms for various purposes, maintaining the temperature range form 15° C to 60° C depending upon the use and products to be stored.</p>
+                        <p className='mx-3'>We build industrial coldrooms for various purposes, maintaining the temperature range form +15° C to -60° C depending upon the use and products to be stored.</p>
 
                         <h3 className='mt-5'> <img src="snowFlake.svg" class="limg" alt="im" /> CENTRALISED REFRIGERATION SYSTEM</h3>
                         <p className='mx-3'>Power pack system provide high efficiency and low maintenance cost. It is economial in terms of its low running cost and widely used in large scale food industries.</p>
@@ -31,7 +31,7 @@ export const Product = () => {
                         </p>
 
                         <h3 className='mt-5'> <img src="snowFlake.svg" class="limg" alt="im" /> COLD ROOM ACCESSORIES & SPARE PARTS</h3>
-                        <p className='mx-3'>We supply and all kinds of accessories like ironmongaries doors, pressure relief valves, heaters, polar curtains and all componets of refrigeration system.</p>
+                        <p className='mx-3'>We supply all kinds of accessories like ironmongaries doors, pressure relief valves, heaters, polar curtains and all componets of refrigeration system.</p>
 
                         <h3 className='mt-5'> <img src="snowFlake.svg" class="limg" alt="im" /> SERVICE AND MAINTENANCE</h3>
                         <p className='mx-3 pb-3'>We have a very dedicated and quick 24/7 response team to attend on call maintenance issues. We provide very effective annual maintenance contract for all types of refrigeration unites.</p>

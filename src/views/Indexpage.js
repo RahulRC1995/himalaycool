@@ -19,7 +19,7 @@ const Indexpage = () => {
                     <ul className='ullist mt-5'>
                         <li className='lilist'>UAE</li>
                         <li className='lilist'>INDIA</li>
-                        <li className='lilist'>BEHRAIN</li>
+                        <li className='lilist'>BAHRAIN</li>
                         <li className='lilist'>SULTANATE OF OMAN</li>
                         <li className='lilist'>QATAR</li>
                         <li className='lilist'>KSA</li>
@@ -44,8 +44,8 @@ const Indexpage = () => {
                     </Row>
                     <Row>
                         <Col className='p-0 m-0 serviceBgs' style={{ backgroundImage: `url(Services/serv5.jpg)` }}><Link to="Product"><div className="filterBg">Supermarket Refrigertaion System</div></Link></Col>
-                        <Col className='p-0 m-0 serviceBgs' style={{ backgroundImage: `url(Services/serv6.jpg)` }}><Link to="Product"><div className="filterBg">Ice Plant</div></Link></Col>
-                        <Col className='p-0 m-0 serviceBgs' style={{ backgroundImage: `url(TargetBanner.jpg)` }}><Link to="Product"><div className="filterBg">Medical & lab Cold Rooms</div></Link></Col>
+                        <Col className='p-0 m-0 serviceBgs' style={{ backgroundImage: `url(Services/serv6.jpg)` }}><Link to="Product"><div className="filterBg">Warehouse Cooling</div></Link></Col>
+                        <Col className='p-0 m-0 serviceBgs' style={{ backgroundImage: `url(Services/serv7.jpg)` }}><Link to="Product"><div className="filterBg">Medical & lab Cold Rooms</div></Link></Col>
                         <Col className='p-0 m-0 serviceBgs' style={{ backgroundImage: `url(MissionBanner.jpg)` }}><Link to="Product"><div className="filterBg">Blast Freezers & Chillers</div></Link></Col>
                     </Row>
                 </Col>

@@ -208,3 +208,12 @@ p {
     transform: translateY(0rem);
   }
 }
+.whatsicon {
+  background-color: #2e2e2e95;
+  padding: 10px;
+  z-index: 5;
+  border-radius: 20px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
