@@ -42,7 +42,15 @@ const Contact = () => {
                                     </div>
                                 </Col>
                                 <Col md="5" id="Map">
-
+                                    <iframe className='mt-5'
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.3111109791403!2d55.45243611459582!3d25.394394629904394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5836c4c66a37%3A0x5875e9e7a1fd51c1!2sHimalaya%20A%2FC%20Systems%20Contracting%20LLC!5e0!3m2!1sen!2sin!4v1677049743537!5m2!1sen!2sin"
+                                        width="280"
+                                        height="250"
+                                        // style="border:0;"
+                                        allowfullscreen=""
+                                        loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade">
+                                    </iframe>
                                 </Col>
                             </Row>
 
