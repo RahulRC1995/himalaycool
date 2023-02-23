@@ -54,14 +54,7 @@ export const About = () => {
                                 focus on projects that are difficult to do.
                             </p>
                         </Alert></Col>
-
                     </Row>
-
-
-
-
-
-
                 </Col>
             </Row>
         </Container>

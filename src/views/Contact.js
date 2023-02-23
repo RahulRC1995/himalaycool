@@ -43,8 +43,9 @@ const Contact = () => {
 
                                         <HiPhone size={35} color="#4d4b4b94" className='mb-2' />
 
-                                        <p>+971 6 742 1561</p>
-                                        <p>+971 52 848 4384</p>
+                                        <p>Qatar:&nbsp;&nbsp;+974 33 208 962</p>
+                                        <p>Oman:&nbsp;&nbsp;+968 93 140 027</p>
+                                        <p>India:&nbsp;&nbsp;+91 9360598320</p>
 
                                     </div>
                                 </Col>
@@ -79,7 +80,7 @@ const Contact = () => {
                                 <Col md="4" className='text-center pt-3'>
 
                                     <div class="iconContact">
-                                        <a href='https://www.facebook.com/profile.php?id=100090230333015&mibextid=ZbWKwL'
+                                        <a href='https://www.facebook.com/people/Himalaya-Cold-rooms-Refrigeration-Contractors/100090230333015'
                                             target={"_blank"}
                                             rel="noreferrer">
                                             <FaFacebookF size={25} color="#fff" style={iconStyle} />
