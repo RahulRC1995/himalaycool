@@ -12,6 +12,13 @@ import img3 from "../Images/Fourth.JPG"
 import img4 from "../Images/Second.jpg"
 import img5 from "../Images/Sixth.JPG"
 import img6 from "../Images/Third.JPG"
+import img7 from "../Images/a.jpg"
+import img8 from "../Images/b.jpg"
+import img9 from "../Images/c.jpg"
+import img10 from "../Images/d.jpg"
+import img11 from "../Images/e.jpg"
+import img12 from "../Images/f.jpg"
+import img13 from "../Images/g.jpg"
 
 
 const Gallery = () => {
@@ -61,6 +68,42 @@ const Gallery = () => {
             caption: 'Slide 3',
             key: 6,
             src: 'MissionBanner.JPG'
+        }, {
+            altText: 'Slide 3',
+            caption: 'Slide 3',
+            key: 7,
+            src: img7
+        }, {
+            altText: 'Slide 3',
+            caption: 'Slide 3',
+            key: 8,
+            src: img8
+        }, {
+            altText: 'Slide 3',
+            caption: 'Slide 3',
+            key: 9,
+            src: img9
+        },
+        {
+            altText: 'Slide 3',
+            caption: 'Slide 3',
+            key: 10,
+            src: img10
+        }, {
+            altText: 'Slide 3',
+            caption: 'Slide 3',
+            key: 11,
+            src: img11
+        }, {
+            altText: 'Slide 3',
+            caption: 'Slide 3',
+            key: 12,
+            src: img12
+        }, {
+            altText: 'Slide 3',
+            caption: 'Slide 3',
+            key: 13,
+            src: img13
         }
 
     ]

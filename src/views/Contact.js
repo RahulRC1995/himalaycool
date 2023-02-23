@@ -42,7 +42,7 @@ const Contact = () => {
                                         <p></p>
 
                                         <HiPhone size={35} color="#4d4b4b94" className='mb-2' />
-
+                                        <p>Uae:&nbsp;&nbsp;+971 52 848 4384,&nbsp;+971 67 42 1561</p>
                                         <p>Qatar:&nbsp;&nbsp;+974 33 208 962</p>
                                         <p>Oman:&nbsp;&nbsp;+968 93 140 027</p>
                                         <p>India:&nbsp;&nbsp;+91 9360598320</p>

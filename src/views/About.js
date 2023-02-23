@@ -15,9 +15,8 @@ export const About = () => {
                 <Col md="12" className="justify-content-md-center"  >
 
                     <h3 className='mt-3'>About Us</h3>
-                    <p className='mt-3'>Himalaya is a refrigeration, cold store installation company certified with limited liablity, providing extensice knowledge and expertise in market with rich and professional experience.
-                        Himalaya consist of highly quilified engineers and technicians, can provide the most reliable services to the customers.</p>
-                    <p>We guarantee our customers ther we will consider their problems as our own and establish a strong relationship with them. We strive to be a true solution provider with profestion approach</p>
+                    <p className='mt-3'>Himalaya is a marketing and service providing company located in UAE, for solutions of cold rooms. Himalaya has over 10 years of experience and is committed to provide the highest standard of services for complete client satisfaction.</p><p> Himalaya consist of highly qualified engineers and technicians who can provide the most reliable services to the customers.</p>
+
                     <Row className='m-5 p-5 '>
                         <Col md="6" className='p-0' >       <Alert className='text-center cardBlocks' style={{ backgroundColor: "#4fc3f7", height: "350px", width: '100%', border: "0px", borderRadius: "0px" }} >
                             <MdVisibility size={70} color="#fff" style={{ height: 120 }} />

@@ -27,10 +27,13 @@ const Footer = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col className='d-flex  text-center justify-content-center align-items-center pb-2'>
+                    <Col className='d-flex  text-center justify-content-center align-items-center pb-2 phoneTxt'>
+
+                        <h6>Uae:&nbsp;&nbsp;+971 52 848 4384,&nbsp;+971 67 42 1561&nbsp;</h6>
                         <h6>Qatar:&nbsp;&nbsp;+974 33 208 962 &nbsp;&nbsp;</h6>
                         <h6>Oman:&nbsp;&nbsp;+968 93 140 027&nbsp;&nbsp;</h6>
                         <h6>India:&nbsp;&nbsp;+91 9360598320&nbsp;&nbsp;</h6>
+
                     </Col>
                 </Row>
                 <Row>

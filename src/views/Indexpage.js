@@ -47,7 +47,7 @@ const Indexpage = () => {
                         <Col className='p-0 m-0 serviceBgs' style={{ backgroundImage: `url(Services/serv5.jpg)` }}><Link to="Product"><div className="filterBg">Supermarket Refrigertaion System</div></Link></Col>
                         <Col className='p-0 m-0 serviceBgs' style={{ backgroundImage: `url(Services/serv6.jpg)` }}><Link to="Product"><div className="filterBg">Warehouse Cooling</div></Link></Col>
                         <Col className='p-0 m-0 serviceBgs' style={{ backgroundImage: `url(Services/serv7.jpg)` }}><Link to="Product"><div className="filterBg">Medical & lab Cold Rooms</div></Link></Col>
-                        <Col className='p-0 m-0 serviceBgs' style={{ backgroundImage: `url(MissionBanner.jpg)` }}><Link to="Product"><div className="filterBg">Blast Freezers & Chillers</div></Link></Col>
+                        <Col className='p-0 m-0 serviceBgs' style={{ backgroundImage: `url(Services/serv8.jpg)` }}><Link to="Product"><div className="filterBg">Blast Freezers & Chillers</div></Link></Col>
                     </Row>
                     <Row>
                         <Col className='p-0 m-0 serviceBgs' style={{ backgroundImage: `url(Services/serv9.jpg)` }}><Link to="Product"><div className="filterBg">Warehouse Insulated Partitions</div></Link></Col>
