@@ -63,6 +63,9 @@ p {
   display: flex;
   align-items: center;
 }
+.iconContact:hover {
+  background: #bc4d8e;
+}
 .HeadingBanner {
   height: calc(100vh - 80px);
   background-repeat: no-repeat;
@@ -209,7 +212,7 @@ p {
   }
 }
 .whatsicon {
-  background-color: #2e2e2e95;
+  background-color: #99959559;
   padding: 10px;
   z-index: 5;
   border-radius: 20px;

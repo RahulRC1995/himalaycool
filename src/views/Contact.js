@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardBody, CardHeader, Col, Container, Row } from 'reactstrap'
+import { Card, CardBody, CardFooter, CardHeader, Col, Container, Row } from 'reactstrap'
 import {
     ImHome
 } from "react-icons/im"
@@ -23,32 +23,29 @@ const Contact = () => {
 
     return (
 
-        <Container fluid className='mt-5 conactContainer mb-5 '>
-            <Row className='d-flex h-100 justify-content-md-center'>
+        <Container className='mt-5 mb-5 '>
+            <Row className=' h-100 justify-content-md-center '>
                 <Col md="7"  >
-                    <Card>
+                    <Card >
                         <CardHeader className='text-center'>
                             <h4 style={{ marginTop: '0.5rem' }}>Contact Us</h4>
                         </CardHeader>
-                        <CardBody className='p-0'>
+                        <CardBody className='p-3'>
                             <Row >
                                 <Col md="7" className='text-center'>
 
                                     <div className='mt-5'>
-                                        <div class="iconContact">
-                                            <ImHome size={25} color="#fff" />
-                                        </div>
+
+                                        <ImHome size={35} color="#4d4b4b94" className='mb-2' />
+
                                         <p> P.O Box 7890, Tower D # 301, Horizon Tower Rashidiya 1, <br />Ajman, UAE</p>
                                         <p></p>
-                                        <div class="iconContact">
-                                            <HiPhone size={25} color="#fff" />
-                                        </div>
+
+                                        <HiPhone size={35} color="#4d4b4b94" className='mb-2' />
+
                                         <p>+971 6 742 1561</p>
                                         <p>+971 52 848 4384</p>
-                                        {/* <div class="iconContact">
-                                            <MdEmail size={25} color="#fff" />
-                                        </div>
-                                        <p>info@himalayacool.com</p>*/}
+
                                     </div>
                                 </Col>
                                 <Col md="5" id="Map">
@@ -63,39 +60,46 @@ const Contact = () => {
                                     </iframe>
                                 </Col>
                             </Row>
-                            <Row>
-                                <Col md="4" className='text-center'>
-                                    <div className='mt-5'>
-                                        <div class="iconContact">
-                                            <MdEmail size={25} color="#fff" />
-                                        </div>
-                                    </div>
-                                </Col>
-                                <Col md="4" className='text-center'>
-                                    <div className='mt-5'>
-                                        <div class="iconContact">
-                                            <a href='https://www.facebook.com/profile.php?id=100090230333015&mibextid=ZbWKwL'
-                                                target={"_blank"}
-                                                rel="noreferrer">
-                                                <FaFacebookF size={25} color="#fff" style={iconStyle} />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </Col>
-                                <Col md="4" className='text-center'>
-                                    <div className='mt-5'>
-                                        <div class="iconContact">
-                                            <a href='http://linkedin.com/in/himalaya-coldrooms-refrigeration-contractors-158149131'
-                                                target={"_blank"}
-                                                rel="noreferrer">
-                                                <FaLinkedinIn size={25} color="#fff" style={iconStyle} />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </Col>
-                            </Row>
+
 
                         </CardBody>
+                        <CardFooter>
+                            <Row>
+                                <Col md="4" className='text-center pt-3'>
+
+                                    <div class="iconContact">
+                                        <a href="mailto:info@himalayacool.com"
+                                            target={"_blank"}
+                                            rel="noreferrer">
+                                            <MdEmail size={25} color="#fff" style={iconStyle} />
+                                        </a>
+                                    </div>
+
+                                </Col>
+                                <Col md="4" className='text-center pt-3'>
+
+                                    <div class="iconContact">
+                                        <a href='https://www.facebook.com/profile.php?id=100090230333015&mibextid=ZbWKwL'
+                                            target={"_blank"}
+                                            rel="noreferrer">
+                                            <FaFacebookF size={25} color="#fff" style={iconStyle} />
+                                        </a>
+
+                                    </div>
+                                </Col>
+                                <Col md="4" className='text-center pt-3'>
+
+                                    <div class="iconContact">
+                                        <a href='http://linkedin.com/in/himalaya-coldrooms-refrigeration-contractors-158149131'
+                                            target={"_blank"}
+                                            rel="noreferrer">
+                                            <FaLinkedinIn size={25} color="#fff" style={iconStyle} />
+                                        </a>
+                                    </div>
+
+                                </Col>
+                            </Row>
+                        </CardFooter>
 
                     </Card>
 
