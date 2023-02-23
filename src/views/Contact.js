@@ -9,6 +9,16 @@ import {
 import {
     MdEmail
 } from "react-icons/md"
+import {
+    FaFacebookF
+} from "react-icons/fa"
+import {
+    FaLinkedinIn
+} from "react-icons/fa"
+const iconStyle = {
+    cursor: 'pointer'
+};
+
 const Contact = () => {
 
     return (
@@ -35,10 +45,10 @@ const Contact = () => {
                                         </div>
                                         <p>+971 6 742 1561</p>
                                         <p>+971 52 848 4384</p>
-                                        <div class="iconContact">
+                                        {/* <div class="iconContact">
                                             <MdEmail size={25} color="#fff" />
                                         </div>
-                                        <p>info@himalayacool.com</p>
+                                        <p>info@himalayacool.com</p>*/}
                                     </div>
                                 </Col>
                                 <Col md="5" id="Map">
@@ -51,6 +61,37 @@ const Contact = () => {
                                         loading="lazy"
                                         referrerpolicy="no-referrer-when-downgrade">
                                     </iframe>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col md="4" className='text-center'>
+                                    <div className='mt-5'>
+                                        <div class="iconContact">
+                                            <MdEmail size={25} color="#fff" />
+                                        </div>
+                                    </div>
+                                </Col>
+                                <Col md="4" className='text-center'>
+                                    <div className='mt-5'>
+                                        <div class="iconContact">
+                                            <a href='https://www.facebook.com/profile.php?id=100090230333015&mibextid=ZbWKwL'
+                                                target={"_blank"}
+                                                rel="noreferrer">
+                                                <FaFacebookF size={25} color="#fff" style={iconStyle} />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </Col>
+                                <Col md="4" className='text-center'>
+                                    <div className='mt-5'>
+                                        <div class="iconContact">
+                                            <a href='http://linkedin.com/in/himalaya-coldrooms-refrigeration-contractors-158149131'
+                                                target={"_blank"}
+                                                rel="noreferrer">
+                                                <FaLinkedinIn size={25} color="#fff" style={iconStyle} />
+                                            </a>
+                                        </div>
+                                    </div>
                                 </Col>
                             </Row>
 
